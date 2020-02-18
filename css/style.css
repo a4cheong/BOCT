@@ -1054,10 +1054,11 @@ a.btn-style-one:hover{
 }
 .about-section .about-content{
   position: relative;
-  padding: 218px 55px 220px 0px;
+  padding: 90px 55px 220px 0px;
+/*  padding: 218px 55px 220px 0px; */
 }
 .about-section .about-content:before{
-  position: absolute;
+  position: absolute; /*absolute*/
   content: '';
   background: url(../images/about/about-bg.png);
   background-size: cover;
@@ -2483,7 +2484,7 @@ label{
     content: "";
     height: 73px;
     right: -53px;
-    position: absolute;
+    position: relative;
     top: 0px;
     transform: skewX(-139deg);
     width: 70px;
@@ -2493,7 +2494,7 @@ label{
     content: "";
     height: 73px;
     left: -53px;
-    position: absolute;
+    position: relative;
     top: 0px;
     transform: skewX(139deg);
     width: 70px;
